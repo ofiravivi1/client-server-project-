@@ -11,8 +11,7 @@ connected names for the UI.
 ## Part 1 - Network Analysis
 **Files**
 - `Part 1/Capture from Wireshark.pcapng`
-- `Part 1/wiresharkhttp (1).pcapng`
-- `Part 1/group_http_input.csv`
+- `Part 1/group02_http_input.csv`
 - `Part 1/raw_tcp_ip_notebook_fallback_annotated-v1-NewFinal.ipynb`
 
 **What it is**
@@ -27,10 +26,9 @@ connected names for the UI.
 ## Part 2 - TCP Chat App
 **Files**
 - `Part 2/server.py` (chat server)
-- `Part 2/client.py` (terminal client)
 - `Part 2/nicegui_client.py` (NiceGUI web UI)
 - `Part 2/Capture client server Wireshark.pcapng` (traffic capture)
-- `Part 2/clientserver.txt` (notes / logs)
+- `Part 2/ Summry report`
 
 **Main features**
 - Up to 5 clients connected at the same time.
@@ -43,9 +41,8 @@ connected names for the UI.
    - `python "Part 2/server.py"`
 2) Start one or more clients:
    - `python "Part 2/client.py"`
-3) Send a message in this format:
-   - `Ronny,Ofir - hello`
-4) Type `exit` to leave.
+3) Send a message 
+4) Type `disconncet` to leave.
 
 **How to run (NiceGUI UI)**
 1) Install dependency:
